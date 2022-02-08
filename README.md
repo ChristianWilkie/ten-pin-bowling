@@ -17,6 +17,9 @@ The application should inform its user of the gameState status after every input
    a cloud environment if stakeholders felt they would benefit from it for the additional cost/complexity (ex: storing gameState history in a db or something)
 3. Users will be playing in English - additional languages could be introduced later if this would be justified/useful based on talking with stakeholders.
 4. Assume traditional scoring of ten-pin bowling (apparently there are different scoring mechanisms)
+5. The "game status" that the user cares about is the rolls they've done along with the rolling frame score total.
+6. When a game is over, the program should keep going/looping for new games.
+7. The player doesn't mistype any rolls (possibly future enhancement to add an undo command).
 
 ## Running the project
 
